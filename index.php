@@ -1,7 +1,7 @@
 <?php
-
-$json = file_get_contents('https://api.wheretheiss.at/v1/satellites/25544');
-$obj = json_decode($json);
+include 'src/ISS.php';
+// $json = file_get_contents('https://api.wheretheiss.at/v1/satellites/25544');
+// $obj = json_decode($json);
 
 //echo 'latitude: '.$obj->latitude."<br>";
 //echo 'longitude:'.$obj->longitude. '<br>';
